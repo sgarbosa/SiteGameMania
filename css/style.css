@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*
+{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #47494C;
+}
+.container-grid {
+    width:  1400px;
+    height: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    height: 130px;
+    background-color: #0660CB ;
+}
+.logo a {
+    height: 100%;
+}
+.banner {
+    background-color: #47494C;
+    background-image: url(../img/BG.png);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+.texto-banner {
+    width: 1920px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    text-align: right;
+
+}
+.sub-texto-banner {
+    width: 1920px;
+    font-size: 30px;
+}
+.posicao-texto {
+    justify-content: flex-end;
+    height: 800px;
+}
+.categorias {
+    background-color: #47494C;
+    justify-content: space-between;
+    
+}
+.links {
+    width: 1400px;
+    height: 275px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.principais-produtos {
+    width: calc(100% - 520px);
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    background-image: url(../img/BG-compras.svg);
+}
+.promocoes {
+    width: 100%;
+    display: inline-flex;   
+    justify-content: space-evenly;
+}
+.rodape {
+    margin-top: 20px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+}
+.imgs-rodape {
+    margin-top: 20px;
+        margin-bottom: 20px;
+    width: calc(100% - 520px);
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.rodape-direita {
+    display: flex;
+    flex-direction: column;
+}
+.botoes-rodape {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.botoes-rodape a img {
+    height: 100px;
+    width: 100px;
+}
